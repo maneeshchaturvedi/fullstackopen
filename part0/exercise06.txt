@@ -1,0 +1,10 @@
+note over browser:
+browser executes the event handler
+that adds the new note to the notes array. 
+It then calls the redrawNotes function to 
+render the notes. 
+Finally it makes a HTTP POST request to the server 
+wth the content and date as a JSON payload
+end note
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
